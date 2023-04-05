@@ -1,6 +1,5 @@
 import axios from "axios";
-axios.defaults.headers.post["Content-Type"] = "application/json;charset=utf-8";
-axios.defaults.headers.post["Access-Control-Allow-Origin"] = "*";
+
 const urlFirst = `https://api.openweathermap.org/data/2.5/forecast?q=`;
 const urlSecond = `,&appid=`;
 
